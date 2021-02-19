@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--logo top div-->
+    <div class="topnav w-100" style="background-color: rgb(248, 103, 103); height: 120px; width: 92vw">
+        <a class="logo float-left" href="#" style="margin-top: 38px; margin-left: 50px;"><span id="logo" style="border: white solid 5px; font-size: 27px; font-weight: normal; padding: 25px 40px; color: white; font-family: serif;">LOGO</span></a>
+        <div class="schoolhead float-right" style="margin-top: 11px; margin-right: 50px; text-align: right;">
+            <p class="schoolheadname" style="color: white; letter-spacing: 1.2px; font-size: 32px; margin-bottom: 4px; font-weight: bold;">Pragati Public School</p>
+            <p class="schoolheadaddress" style="color: white; font-size: 14px; font-weight: 400; line-height: 20px; width: 420px;">Address: Pragati Public School, Line number:3, Line number:3, Line number:3, Line number:3</p>
+        </div>
+    </div>
+
+    <!--navigation-->
+    <div class="navmaindiv">
+        <div class="schoolimages" style="position: relative;">
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="homeimages carousel-inner" role="listbox" style="height: 40vw;">
+                    <!-- Slide One -->
+                    <div class="carousel-item active">
+                        <img src="images/school1.jpg" alt="school image 1" style="width: 100%;">
+                    </div>
+                    <!-- Slide Two -->
+                    <div class="carousel-item">
+                        <img src="images/school2.jpg" alt="school image 2" style="width: 100%;">
+                    </div>
+                    <!-- Slide Three -->
+                    <div class="carousel-item">
+                        <img src="images/school3.jpg" alt="school image 3" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+                <a class="homeimgsarrow carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev" style="opacity: 1; height: 50px; width: 100px; margin-top: 20vw;">
+                    <span class="navarr fa fa-arrow-circle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="homeimgsarrow carousel-control-next" href="#carouselIndicators" role="button" data-slide="next" style="opacity: 1; height: 50px; width: 100px; margin-top: 20vw;">
+                    <span class="navarr fa fa-arrow-circle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        </div>
+
+        <nav class="navbar navbar-light navbar-expand-lg w-100" id="mainNav" style="background-color: rgba(255, 255, 255, 0.658); position: absolute; top: 120px; z-index: 1;">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right border-0" style="font-size: 20px; padding: 10px 15px; color: red;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto my-3">
+                        <li class="nav-item active mx-0"><a class="nav-link py-2 py-lg-0 px-3 px-lg-4 pt-0" href="index.html">Home</a></li>
+                        <li class="nav-item mx-0"><a class="nav-link py-2 py-lg-0 px-3 px-lg-4" href="ourschool.html">Our School</a></li>
+                        <li id="academics" class="mx-0 dropdown">
+                            <a class="nav-link py-2 py-lg-0 px-3 px-lg-4" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="#">Academics</a>
+                            <div class="dropdown-menu border-0" aria-labelledby="navbarDropdownMenuLink" style="background-color: white; border-radius: 10px;">
+                                <a class="dropdown-item" href="404page.html">Online Programs</a>
+                                <a class="dropdown-item" href="academicapproach.html">Academic Approach</a>
+                                <a class="dropdown-item" href="infrastructure.html">Infrastructure</a>
+                                <a class="dropdown-item" href="branches.html">Branches</a>
+                                <a id="activities" class="dropdown-item dropdown-submenu" style="position:relative;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Activities</a>
+                                <ul class="dropdown-menu dropdown-menu-right border-0" style="background-color: white; border-radius: 10px;">
+                                    <li><a class="dropdown-item" href="studentactivities.html">Student Activities</a></li>
+                                    <li><a id="teacheractivities" class="dropdown-item" href="404page.html">Teacher Activities</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mx-0"><a class="nav-link py-2 py-lg-0 px-3 px-lg-4" href="admission.html">Admission</a></li>
+                        <li class="nav-item mx-0"><a class="nav-link py-2 py-lg-0 px-3 px-lg-4" href="events.html">Events & News</a></li>
+                        <li class="nav-item mx-0"><a class="nav-link py-2 py-lg-0 px-3 px-lg-4" href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--welcome div-->
+    <div class="welcomediv row mx-auto justify-content-center" style="margin-top: 70px; margin-bottom: 70px;">
+        <div class="welcomeimgdiv col-5 text-center px-0">
+            <img class="welcomeimg" src="images/welcome.JPG" alt="welcome image" style="width: 450px;">
+        </div>
+        <div class="welcomecontent col-md-5 col-7 px-0" style="margin-left: 25px;">
+            <h2 class="welcomeheading" style="font-size: 37px; color:  rgb(248, 103, 103); font-weight: bold; margin-bottom: 13px; width: 345px;">Welcome to Pragati Public School</h2>
+            <p class="welcomecontentpara" style="font-weight: 500; line-height: 29px; font-size: 18px; margin-bottom: 22px; ">My school is one of the best schools in the country. It has a huge campus with 2 big playgrounds- one at the front and the other behind the school building.
+                My school is one of the best schools in the country. It has a huge campus with 2 big playgrounds- one at the front and the other behind the school building.
+            </p>
+            <a href="#" class="readmorebutton" style="background-color:rgb(248, 103, 103); padding: 12px 25px; color: white; border-radius: 13px; font-size: 14px; font-weight: 400; letter-spacing: 0.5px;">Read More</a>
+        </div>
+    </div>
+
+     <!--platform div-->
+     <div class="platformdiv text-white w-100" style="background-color: rgb(26, 53, 85); margin-top: 25px; height: 320px; margin-bottom: 25px;">
+
+        <!--muti item carousel-->
+        <div id="carousel-thumbs" class="carousel slide mx-auto" data-ride="carousel" style="width: 700px; padding-top: 80px;">
+            <div id="thumbcarouselinner" class="carousel-inner">
+              <div class="thumbnailitem carousel-item active mr-0">
+                <div class="platformrow row justify-content-around mx-0">
+                  <div id="carousel-selector-0" class="thumb col-7 col-md-3 py-2 px-1 ml-4" data-target="#carousel-thumbs" data-slide-to="0">
+                    <a href="#" class="bluep d-flex justify-content-center align-items-center" style="background-color: rgb(123, 171, 243); height: 140px; text-decoration: none; color: white; border-radius: 15px;">
+                        <div class="platform-item d-block mx-auto" data-toggle="modal" data-target="#infrastructureModal1">
+                            <i class="fa fa-language" style="font-size: 50px; margin-left: 33px;"></i>
+                            <h4 class="pitemtext mt-3">Language</h4>
+                        </div>
+                    </a>
+                  </div>
+
+                  <div id="carousel-selector-1" class="thumb col-7 col-md-3 py-2 px-1" data-target="#carousel-thumbs" data-slide-to="0">
+                    <a href="#" class="bluep d-flex justify-content-center align-items-center" style="background-color: rgb(247, 120, 126); height: 140px; text-decoration: none; color: white; border-radius: 15px;">
+                        <div class="platform-item d-block mx-auto" data-toggle="modal" data-target="#infrastructureModal1">
+                            <i class="fa fa-line-chart" style="font-size: 50px; margin-left: 17px;"></i>
+                            <h4 class="pitemtext mt-3">Business</h4>
+                        </div>
+                    </a>
+                  </div>
+
+                  <div id="carousel-selector-2" class="thumb col-7 col-md-3 py-2 px-1 mr-4" data-target="#carousel-thumbs" data-slide-to="0">
+                    <a href="#" class="bluep d-flex justify-content-center align-items-center" style="background-color: rgb(31, 241, 178); height: 140px; text-decoration: none; color: white; border-radius: 15px;">
+                        <div class="platform-item d-block mx-auto" data-toggle="modal" data-target="#infrastructureModal1">
+                            <i class="fa fa-book" style="font-size: 50px; margin-left: 30px;"></i>
+                            <h4 class="pitemtext mt-3">Literature</h4>
+                        </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev platformarrows" href="#carousel-thumbs" role="button" data-slide="next" style="height: 40px; width: 20px; border-radius: 5px; color:black; background-color: white; margin-top: 140px;">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+            <a class="carousel-control-next platformarrows" href="#carousel-thumbs" role="button" data-slide="next" style="height: 40px; width: 20px; border-radius: 5px; color:black; background-color: white; margin-top: 140px;">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+    </div>
+
+    <!--principal's corner-->
+    <div class="principaldiv row mx-auto justify-content-center" style="margin-top: 70px; margin-bottom: 70px;">
+        <div class="principalcontent col-md-5 col-sm-6 col-9 px-0">
+            <h2 style="font-size: 37px; color:  rgb(248, 103, 103); font-weight: bold; margin-bottom: 13px; width: 200px;">Principal's Corner</h2>
+            <p class="principalcontentpara" style="font-weight: 500; line-height: 29px; font-size: 18px; margin-bottom: 22px; ">It is a great pride and privilege that i welcome you to our school and i hope you enjoy visiting our wonderful
+                campus.our school. i hope you enjoy visiting our wonderful campus.our school. It is a great pride and privilege that i welcome you to our school and i hope you enjoy visiting our wonderful
+                campus.our school. i hope you enjoy visiting our wonderful campus.our school.
+            </p>
+            <a href="#" class="readmorebutton" style="background-color:rgb(248, 103, 103); padding: 12px 25px; color: white; border-radius: 13px; font-size: 14px; font-weight: 400; letter-spacing: 0.5px;">Read More</a>
+        </div>
+        <div class="principalimgdiv col-md-5 col-6 text-center px-0">
+            <img class="principalimg" src="images/principal.JPG" alt="principal image" style="width: 470px; margin-left: 25px;">
+        </div>
+    </div>
+
+    <!--scroll divs-->
+    <div class="scrolldivmain row mx-auto justify-content-center" style="margin-top: 120px;">
+    
+    <div class="scrolldiv1 col-lg-6 col-sm-9 col-11 px-0"  style=" background-color: rgb(255, 245, 245);">
+
+      <nav class="scrolldiv1nav navbar p-0" style="height: 45px;">
+        <div class="container-fluid p-0 h-100">
+          <div class="h-100">
+            <ul class="nav navbar-fixed-top nav-tabs w-100 h-100">
+              <li class="nav-item h-100"><a class="scrolldiv1links nav-link" href="#section1">Event</a></li>
+              <li class="nav-item h-100"><a class="scrolldiv1links nav-link" href="#section2">Social Awareness</a></li>
+              <li class="nav-item h-100"><a class="scrolldiv1links nav-link" href="#section3">Achievement</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
+        <div class="content" data-spy="scroll" data-target=".navbar" data-offset="50" style="overflow-y: scroll; height: 300px; position: relative;">
+      <div id="section1" class="container-fluid" style="padding: 20px 20px 0px 20px;">
+        <div style="border-bottom: 1px solid black;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+          <h4>Event 1</h4>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">01-Jan-2020</p>
+          <h4>Event 2</h4>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+          <h4>Event 3</h4>
+        </div>
+      </div>
+      <div id="section2" class="container-fluid" style="padding: 20px 20px 0px 20px;">
+        <div style="border-bottom: 1px solid black;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+          <h4>SA 1</h4>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">01-Jan-2020</p>
+          <h4>SA 2</h4>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+          <h4>SA 3</h4>
+        </div>
+      </div>
+      <div id="section3" class="container-fluid" style="padding: 20px 20px 0px 20px;">
+        <div style="border-bottom: 1px solid black;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+          <h4>Win Inter School Dancing Competition</h4>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">01-Jan-2020</p>
+          <h4>Champion in State</h4>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="color:  rgb(12, 9, 156); font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+          <h4>Win Inter School Dancing Competition</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+
+   <div class="scrolldiv2 col-lg-3 col-sm-5 col-9 px-0"  style="background-color: rgb(255, 245, 245); margin-left: 40px; ">
+
+      <nav class="scroll2nav p-0" style="height: 45px;">
+        <div class="container-fluid p-0 h-100">
+          <div class="h-100 w-100">
+            <ul class="scrolldiv2heading w-100 h-100 pl-0" style="background-color: rgb(248, 103, 103);">
+              <li class="scroll-item w-100" style="list-style-type: none;"><a class="scroll-link" href="#scrolldiv2section">Important Link</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
+        <div class="content" data-spy="scroll" data-target=".scroll2nav" data-offset="50" style="overflow-y: scroll; height: 300px; position: relative;">
+      <div id="scrolldiv2section" class="container-fluid" style="padding: 20px 20px 0px 20px;">
+        <div style="border-bottom: 1px solid black;">
+          <p style="font-size: 14.5px; font-weight:500; margin-bottom: 20px;">Admission Fee Payment</p>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="font-size: 14.5px; font-weight:500; margin-bottom: 20px;">CBSE Result Student Council</p>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="font-size: 14.5px; font-weight:500; margin-bottom: 20px;">Social Service Initiative</p>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="font-size: 14.5px; font-weight:500; margin-bottom: 20px;">Our School Branch</p>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="font-size: 14.5px; font-weight:500; margin-bottom: 20px;">Examination Dates</p>
+        </div>
+        <div style="border-bottom: 1px solid black; margin-top: 30px;">
+          <p style="font-size: 14.5px; font-weight:500; margin-bottom: 20px;">Yearly Calendar Events</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    </div>
+
+    <!--scroll subdivs-->
+    <div class="scrollsubdivmain row mx-auto justify-content-center" style="margin-top: 40px; margin-bottom: 150px;">
+
+      <div class="scrollsubdiv col-lg-3 col-sm-5 col-9 px-0"  style="background-color: rgb(255, 245, 245);">
+
+        <nav class="scrollsubnav p-0" style="height: 45px;">
+          <div class="container-fluid p-0 h-100">
+            <div class="h-100 w-100">
+              <ul class="scrollsubdivheading w-100 h-100 pl-0" style="background-color: rgb(248, 103, 103);">
+                <li class="scroll-item w-100" style="list-style-type: none;"><a class="scroll-link" href="#scrollsubdivsection">Online Notice Board</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>    
+          <div class="content" data-spy="scroll" data-target=".scrollsubnav" data-offset="50" style="overflow-y: scroll; height: 300px; position: relative;">
+        <div id="scrollsubdivsection" class="container-fluid" style="padding: 20px 20px 0px 20px;">
+          <div style="border-bottom: 1px solid black;">
+            <p style="font-size: 14.5px; font-weight:500; margin-bottom: 5px;">25-Apr-2020</p>
+            <p style="margin-bottom: 20px; font-weight: 500; font-size: 17px;">Holiday Updates</p>
+          </div>
+          <div style="border-bottom: 1px solid black; margin-top: 30px;">
+            <p style="font-size: 14.5px; font-weight:500; margin-bottom: 5px;">01-Nov-2020<span style="color: white; background-color: purple; font-size: x-small; margin-left: 10px; padding: 3px 7px; border-radius: 10px;">NEW</span></p>
+            <p style="margin-bottom: 20px; font-weight: 500; font-size: 17px;">School Opening Updates</p>
+          </div>
+          <div style="border-bottom: 1px solid black; margin-top: 30px;">
+            <p style="font-size: 14.5px; font-weight:500; margin-bottom: 5px;">01-Nov-2020<span style="color: white; background-color: purple; font-size: x-small; margin-left: 10px; padding: 3px 7px; border-radius: 10px;">NEW</span></p>
+            <p style="margin-bottom: 20px; font-weight: 500; font-size: 17px;">School Opening Updates</p>
+          </div>
+          <div style="border-bottom: 1px solid black; margin-top: 30px;">
+            <p style="font-size: 14.5px; font-weight:500; margin-bottom: 5px;">07-Nov-2020<span style="color: white; background-color: purple; font-size: x-small; margin-left: 10px; padding: 3px 7px; border-radius: 10px;">NEW</span></p>
+            <p style="margin-bottom: 20px; font-weight: 500; font-size: 17px;">Workshop Updates</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="imagediv col-lg-6 col-sm-9 col-11 px-0"  style=" background-color: rgb(255, 245, 245); margin-left: 40px;">
+        <nav class="imagedivnav p-0" style="height: 45px;">
+          <div class="container-fluid p-0 h-100">
+            <div class="h-100 w-100">
+              <ul class="imagedivheading w-100 h-100 pl-0" style="background-color: rgb(248, 103, 103);">
+                <li class="imagediv-item w-100" style="list-style-type: none;"><a class="imagediv-link" href="#imagedivsection">Photo Gallery</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>  
+        
+        <div id="imagedivsection" class="container-fluid" style="padding: 20px 20px 20px 20px; height: 300px;">
+        <!--muti item carousel-->
+        <div id="imgdivcarousel-thumbs" class="carousel slide" data-ride="carousel" style="height: 260px;">
+          <div id="imgdivthumbcarouselinner" class="carousel-inner" style="height: 260px;">
+            <div class="imgdivthumbnailitem carousel-item active" style="height: 260px;">
+              <div class="row mx-auto pl-3" style="height: 260px;">
+                <div id="imagedivcarousel-selector-0" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="0">
+                  <img src="images/classroom2.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+                <div id="imagedivcarousel-selector-1" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="1">
+                  <img src="images/crthumb.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+                <div id="imagedivcarousel-selector-2" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="2">
+                    <img src="images/curricular2.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+                <div id="imagedivcarousel-selector-3" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="3">
+                  <img src="images/currthumb3.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+                <div id="imagedivcarousel-selector-4" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="3">
+                  <img src="images/labimg2.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+                <div id="imagedivcarousel-selector-5" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="3">
+                  <img src="images/labimg1.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+                <div id="imagedivcarousel-selector-6" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="3">
+                  <img src="images/pgthumb3.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                </div>
+              </div>
+            </div>
+            <div class="imgdivthumbnailitem carousel-item" style="height: 260px;">
+              <div class="row mx-auto pl-3" style="height: 260px;">
+                  <div id="imagedivcarousel-selector-7" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="4">
+                      <img src="images/playground3.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                    </div>
+                    <div id="imagedivcarousel-selector-8" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="5">
+                      <img src="images/playground1.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                    </div>
+                    <div id="imagedivcarousel-selector-9" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="5">
+                      <img src="images/pgthumb2.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                    </div>
+                    <div id="imagedivcarousel-selector-10" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="5">
+                      <img src="images/crthumb2.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                    </div>
+                    <div id="imagedivcarousel-selector-11" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="5">
+                      <img src="images/classroomm3.jpeg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                    </div>
+                    <div id="imagedivcarousel-selector-12" class="thumb col-6 col-sm-4 col-lg-3 py-2" data-target="#imgdivcarousel-thumbs" data-slide-to="5">
+                      <img src="images/currthumb2.jpg" class="homethumbimgs img-fluid" alt="..." style="height: 95px; width: 100px; border-radius: 20px; object-fit: cover;">
+                    </div>
+              </div>
+            </div>
+          </div>
+          <a id="imgdivthumbnailbutton" class="carousel-control-next" href="#imgdivcarousel-thumbs" role="button" data-slide="next" style="height: 95px; background-color: rgb(248, 103, 103); margin-top: 140px; width: 100px; border-radius: 20px; opacity: 1; margin-right: 2.7vw;">
+            <span style="color: black; font-weight: 600;">See More</span>
+          </a>
+        </div>
+        
+        </div>
+      </div>
+
+    </div>
+
+    <!--Footer-->
+    <div class="footer" style="background-color: rgb(248, 103, 103); height: 355px;">
+      <div class="footerborderdiv mx-4" style=" border-bottom: white 1.7px solid; height: 315px;">
+      <div class="left-footer float-left" style="margin-top: 65px; margin-left: 7vw; margin-bottom: 40px;">
+          <a class="logo" href="#"><span style="border: white solid 5px; font-size: 27px; font-weight: normal; padding: 30px 50px; color: white; font-family: serif;">LOGO</span></a>
+          <p style="color: white; letter-spacing: 1.2px; font-size: 24px; margin-bottom: 8px; margin-top: 33px; font-weight: 500;">Pragati Public School</p>
+          <p class="mb-2" style="color: white; font-size: 14px; line-height: 17px; width: 220px;">Address: Pragati Public School, Line number:3, Line number:3, Line number:3, Line number:3</p>
+          <p class="mb-1" style="color: white; font-size: small;"><i class="fa fa-phone" aria-hidden="true" style="font-size: 15px; padding-right: 5px;"></i>+91-11-2986-3951</p>
+          <p class="contactsmailid" style="color: white; font-size: small;"><i id="contactsmail" class="fa fa-envelope-o" aria-hidden="true" style="font-size: 15px; padding-right: 5px; font-weight: 500;"></i>Pragatipublicschool@gmail.com</p>
+      </div>
+      <div class="right-footer float-right" style="width: 460px; margin-top: 45px; margin-right: 5vw;">
+          <div class="linksdiv" style="display: inline-block; margin-right: 4vw;">
+              <p class="footercontent mb-1" style="font-size: 24px; color: white; border-bottom: solid white 2px;">Quick Links</p>
+              <ul style="list-style: none; padding-left: 0px;">
+                  <li class=" py-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">HOME</a></li>
+                  <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">OUR SCHOOL</a></li>
+                  <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">ACADEMIC</a></li>
+                  <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">ADMISSION</a></li>
+                  <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">EVENT & NEWS</a></li>
+                  <li><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">CONTACT</a></li>
+              </ul>
+          </div>
+          <div class="footerexplore" style="display: inline-block; padding-left: 5vw; vertical-align: 11px;">
+              <p class="footercontent explore mb-1" style="font-size: 24px; color: white; border-bottom: solid white 2px; width: 80px;">Explore</p>
+              <ul style="list-style: none; padding-left: 0px;">
+                <li class=" py-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">EVENT</a></li>
+                <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">FAQ</a></li>
+                <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">NEWS LETTER</a></li>
+                <li class=" pb-2"><a class="footercontentlink" href="#" style="color: white; font-size: 15px;">GALLERY</a></li>
+              </ul>
+          
+              <div class="socialicons" style="width: 180px;">
+                <i class="fa fa-facebook" style="background-color: white; color: rgb(248, 103, 103); padding: 9px 10px 5px 9px; border-radius: 50px;"></i>
+                <i class="fa fa-twitter mx-3" style="background-color: white; color:rgb(248, 103, 103); padding: 9px 7px 5px 7px; border-radius: 50px;"></i>
+                <i class="fa fa-linkedin mr-3" style="background-color: white; color:rgb(248, 103, 103); padding: 9px 7px 5px 7px; border-radius: 50px;"></i>
+                <i class="fa fa-youtube-play" style="background-color: white; color:rgb(248, 103, 103); padding: 9px 7px 5px 7px; border-radius: 50px;"></i>
+              </div>
+          </div>
+      </div>
+      </div><!--footer border div-->
+      <p class="copyrightfooter" style="color: white;  letter-spacing: 1.2px; font-size: 14.5px; padding-top: 5px; padding-left: 41vw;"><i class="fa fa-copyright" aria-hidden="true" style="padding-right: 5px;"></i>Copyright 2020 school.co</p>
+  </div>
+  
+    <!--scripts-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
