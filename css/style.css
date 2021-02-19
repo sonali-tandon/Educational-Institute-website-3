@@ -1,0 +1,1411 @@
+body{
+    box-sizing: border-box;
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.ourschoollm:hover{
+    text-decoration: none;
+}
+
+.navarr{
+    color:white;
+    font-size: 50px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#academics .nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#academics .nav-link:hover{
+    color: red;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: red;
+}
+
+.dropdown-menu-right {
+    position: absolute;
+    left: 160px;
+    top: 265px;
+    display: none;
+}
+
+.navbar-nav .dropdown-menu{
+    margin-top: -5px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+    color: rgb(248, 103, 103);
+    background-color: white;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item::after{
+    background-color: black;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 160px;
+}
+
+#activities::after{
+    background-color: transparent;
+}
+
+#activities:focus{
+    color: rgb(248, 103, 103);
+    background-color: white;
+}
+
+#teacheractivities::after{
+    background-color: transparent;
+}
+
+.container .navbar-nav li.active > a {
+    color: red !important;
+}
+
+#academics > a:focus{
+    background-color: white;
+    color: red;
+}
+
+#section1 {height:300px;}
+#section2 {height:300px;}
+#section3 {height:300px;}
+#sectiondiv2content{ height: 300px;}
+#sectionsubdivcontent{height: 300px;}
+
+.nav-tabs{
+    display: table;
+    table-layout: fixed;
+}
+
+.nav-tabs .nav-item{
+    display: table-cell;
+    text-align: center;
+}
+
+.scrolldiv2heading .scroll-item{
+    padding-top: 7px;
+}
+
+.scrollsubdivheading .scroll-item{
+    padding-top: 7px;
+}
+
+.imagedivheading .imagediv-item{
+    padding-top: 7px;
+}
+
+.imagedivheading .imagediv-item .imagediv-link{
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.scrollsubdivheading .scroll-item .scroll-link{
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.scrolldiv2heading .scroll-item .scroll-link{
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.nav-tabs .nav-item .nav-link{
+    color: black;
+    font-weight: 400;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+    border-bottom: rgb(248, 103, 103) solid 7px;
+}
+
+.nav-tabs .nav-link:visited{
+    background-color:rgb(248, 103, 103) !important;
+}
+
+a.nav-link.active{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+/* width */
+.content::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+.content::-webkit-scrollbar-track {
+    background-color: rgb(179, 173, 173);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+.content::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+    height: 60px;
+  }
+  
+  /* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+    background: rgb(248, 103, 103); 
+  }
+
+  /*404 page*/
+.errorpage{
+    height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.errorbutton{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 15px 80px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button-4 {
+    border: 3px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    overflow: hidden;
+}
+.button-4:active {
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+.button-4:hover {
+    background: rgba(58, 58, 58, 0.589);
+}
+
+.button-4>.fa {
+    position: absolute;
+    height: 100%;
+    font-size: 125%;
+    line-height: 2.5;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button-4:active>.fa {
+    color: whitesmoke;
+}
+
+.button-4b>.fa {
+    left: -50%;
+    top: 0;
+}
+.button-4b:hover>.fa {
+    left: 10%;
+}
+
+@media only screen and (max-width: 1230px){
+    #imgdivthumbnailbutton{
+        margin-right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1059px){
+    /*contact page*/
+    .mapdiv{
+        padding-left: 0px;
+    }   
+
+    .addressdiv{
+        padding: 0px;
+        margin-left: 24px !important;
+    }
+
+    .gmaplocation{
+    width: 350px !important;
+    }
+}
+
+@media only screen and (max-width: 1070px){
+    /*home page*/
+    .welcomeimgdiv{
+        margin-top: 10px;
+    }
+
+    .welcomecontent{
+        margin-left: 100px !important;
+    }
+
+    .principalcontent{
+        margin-left: -10vw;
+    }
+
+    /*infrastructure page*/
+    .infaimg{
+        width: 350px !important;
+        height: 220px !important;
+    }
+
+    .infadiv1{
+        margin-right: 10vw !important;
+    }
+
+    .infadiv2{
+        margin-left: 5vw !important;
+    }
+} 
+
+@media only screen and (max-width: 903px){ 
+    /*branch page*/
+    .branchesname{
+        font-size: 13.5px !important;
+    }
+}
+
+@media only screen and (max-width: 991px){ 
+    .dropdown-menu{
+        background-color: transparent !important;
+        width: 200px;
+    }
+
+    .welcomeimgdiv{
+        margin-top: 30px;
+    }
+
+    .welcomecontent{
+        margin-left: 100px !important;
+    }
+
+    #imagedivsection{
+        height: 370px !important;
+    }
+
+    #imgdivcarousel-thumbs{
+        height: 330px !important;
+    }
+
+    #imgdivthumbcarouselinner{
+        height: 330px !important;
+    }
+
+    #imgdivthumbnailbutton{
+        margin-top: 240px !important;
+        margin-right: 50px !important;
+    }
+
+    .homethumbimgs{
+        width: 150px !important;
+    }
+
+    .scrolldivmain{
+        margin-top: 100px !important;
+    }
+
+    .scrolldiv2{
+        margin-top: 40px;
+    }
+
+    .scrollsubdiv{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .imagediv{
+        margin-top: 40px;
+    }
+
+    /*academic app page*/
+    .robodiv{
+        margin-left: 15vw !important;
+    }
+
+    .robocontentdiv{
+        margin-left: 15vw !important;
+        margin-top: 20px !important;
+    }
+
+    /*infrastructure page*/
+    .idiv2imgs{
+        margin-right: 20vw !important;
+    }
+
+    .idiv1imgs{
+        margin-left: 8vw !important;
+    }
+
+    .infadiv1{
+        margin-right: 20vw !important;
+    }
+
+    .infadiv2{
+        margin-left: 8vw !important;
+    }
+
+    /*event page*/
+    .eventcol{
+        margin-left: 20vw !important;
+    }
+
+    .esubcardbodytext{
+        width: 280px !important;
+    }
+
+    .eventscontent{
+        width: 700px !important;
+    }
+
+    .newscol{
+        padding: 0px 0px 0px 15px!important;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .principalimg{
+        width: 380px !important;
+        margin-top: 50px;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width: 700px !important;
+    }
+
+    /*infrastructure page*/
+    .iheadings{
+        font-size: 30px !important;
+    }
+
+    .ipara{
+        font-size: 15px !important;
+        width: 300px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 927px){
+    
+    /*infrastructure page*/
+    .infacontent{
+        width: 800px !important;
+    }
+
+    .infadiv1{
+        margin-left: 16vw !important;
+    }
+}
+
+@media only screen and (max-width: 903px){
+    /*branch page*/
+    .branchesname{
+        font-size: 13.5px !important;
+    }
+
+} 
+
+@media only screen and (max-width: 880px){
+    .welcomeimg{
+        width: 400px !important;
+    }
+
+    .welcomeimgdiv{
+        margin-top: 50px;
+    }
+
+    .welcomeheading{
+        font-size: 35px !important;
+        width: 330px !important;
+    }
+}
+
+@media only screen and (max-width: 867px){
+    .footer{
+        height: 670px !important;
+    }
+
+    .footerborderdiv{
+        height: 610px !important;
+    }
+
+    .right-footer{
+        margin-top: 0px !important;
+    }
+
+    /*infrastructure page*/
+    .infacontent{
+        width: 400px !important;
+    }
+
+    .infadiv1{
+        margin-left: 10vw !important;
+        width: 200px !important;
+    }
+
+    .idiv2imgs{
+        margin-left: 8vw !important;
+    }
+}
+
+@media only screen and (max-width: 787px){ 
+    /*branch page*/
+    .branchesname{
+        font-size: 13px !important;
+    }
+
+    /*home page*/
+    .copyrightfooter{
+        padding-left: 35vw !important;
+    }
+}
+
+@media only screen and (max-width: 767px){ 
+    /*branch page*/
+    .branchesname{
+        font-size: 17px !important;
+    }
+
+    #secondrowbranches{
+        margin-top: 50px;
+    }
+
+    /*home page*/
+    .welcomediv{
+        margin-top: 0px !important;
+        margin-left: -15vw !important;
+    }
+
+    .welcomeimg{
+        width: 450px !important;
+    }
+
+    .welcomeimgdiv{
+        margin-top: 50px;
+    }
+
+    .welcomecontent{
+        margin-left: 20vw !important;
+        margin-top: 20px !important;
+    }
+
+    #carousel-selector-0{
+        margin-right:6vw !important;
+        margin-left: 0px !important;
+    }
+
+    .bluep{
+        width: 60vw !important;
+    }
+
+    #carousel-selector-1{
+        margin-right: 6vw !important;
+    }
+
+    #carousel-selector-2{
+        margin-right: 6vw !important;
+    }
+
+    .platformdiv{
+        height: 630px !important;
+    }
+
+    .platformarrows{
+        margin-top: 300px !important;
+    }
+
+    #carousel-thumbs{
+        width: 95vw !important;
+    }
+
+    .principaldiv{
+        margin-bottom: 0px !important;
+    }
+
+    .principalimgdiv{
+        margin-right: 20vw !important;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width: 600px !important;
+    }
+
+    .ourschoolheadimg{
+        height: 35vw !important;
+    }
+
+    .missionimg{
+        width: 50vw !important;
+    }
+
+    /*contact page*/
+    .addressdiv{
+        margin-left: 25vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 25vw !important;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    /*event page*/
+    .eventscontent{
+        width: 500px !important;
+    }
+
+    .eventcol{
+        margin-left: 10vw !important;
+    }
+} 
+@media only screen and (max-width: 710px){ 
+    /*contact page*/
+    .addressdiv{
+        margin-left: 25vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 25vw !important;
+    }
+}
+
+@media only screen and (max-width: 700px){ 
+    /*home page*/
+    #logo{
+        padding: 15px 20px !important;
+    }
+
+    .schoolheadname{
+        font-size: 25px !important;
+    }
+
+    .schoolheadaddress{
+        font-size: 12px !important;
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    /*home page*/
+    .welcomediv{
+        margin-top: 0px !important;
+        margin-left: -25vw !important;
+    }
+
+    .welcomeimg{
+        width: 450px !important;
+    }
+
+    .welcomeimgdiv{
+        margin-top: 50px;
+    }
+
+    .welcomecontent{
+        margin-left: 20vw !important;
+        margin-top: 20px !important;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width: 500px !important;
+    }
+
+    .missionimg{
+        width: 50vw !important;
+    }
+
+     /*academic app page*/
+
+     .roboimg{
+         width: 350px !important;
+     }
+}
+
+@media only screen and (max-width: 616px){
+    /*contact page*/
+    .addressdiv{
+        margin-left: 20vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 20vw !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    /*error page*/
+    .errorbutton{
+        padding: 15px 50px;
+    }
+
+    #errorheading{
+        font-size: 60px !important;
+    }
+
+    #errormessage{
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 603px){
+   .scrolldiv1links{
+       font-size: 12px !important;
+   }
+
+}
+
+@media only screen and (max-width: 575px){
+    /*branch page*/
+    .branchesname{
+        font-size: 17px !important;
+    }
+
+    #secondrowbranches{
+        margin-top: 50px;
+    }
+
+    /*home page*/
+
+    .homeimages{
+        height: 50vw !important;
+    }
+
+    .homeimgsarrow{
+       margin-top: 23vw !important;
+    }
+
+    .navarr{
+        font-size: 30px !important;
+    }
+
+    .principalcontent{
+        margin-left: 3vw !important;
+    }
+
+    .homethumbimgs{
+        width: 240px !important;
+    }
+
+    #imagedivsection{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #imagedivsection{
+        height: 480px !important;
+    }
+
+    #imgdivcarousel-thumbs{
+        height: 440px !important;
+    }
+
+    #imgdivthumbcarouselinner{
+        height: 440px !important;
+    }
+
+    #imgdivthumbnailbutton{
+        margin-top: 340px !important;
+        margin-right: 70px !important;
+    }
+
+    .scrollsubdiv{
+        margin-left: 0px;
+    }
+
+    .scrolldiv2{
+        margin-left: 0px !important;
+    }
+
+    .imagediv{
+        margin-left: 0px !important;
+    }
+
+    .copyrightfooter{
+        padding-left: 25vw !important;
+    }
+
+}
+
+@media only screen and (max-width: 545px){
+     /*home page*/
+     #logo{
+        padding: 5px 12px !important;
+        font-size: 17px !important;
+    }
+
+    .logo{
+        margin-left: 20px !important;
+        margin-top: 45px !important;
+    }
+
+    .schoolheadname{
+        font-size: 19px !important;
+    }
+
+    .schoolheadaddress{
+        font-size: 12px !important;
+        width: 210px !important;
+    }
+
+    .schoolhead{
+        margin-right: 20px !important;
+    }
+
+    .welcomediv{
+        margin-top: 0px !important;
+        margin-left: -20vw !important;
+    }
+
+    .welcomeimg{
+        width: 350px !important;
+    }
+
+    .welcomeimgdiv{
+        margin-top: 50px;
+    }
+
+    .welcomecontent{
+        margin-left: 20vw !important;
+        margin-top: 20px !important;
+    }
+
+    .principalimgdiv{
+        margin-right: 35vw !important;
+    }
+
+    .right-footer{
+        margin-right: 0px !important;
+        width: 360px !important;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width:400px !important;
+    }
+
+    .ourschoolheadimg{
+        height: 40vw !important;
+    }
+
+    .missionimg{
+        width: 60vw !important;
+    }
+
+    /*academic app page*/
+    .robodiv{
+        margin-left: 5vw !important;
+    }
+
+    .robocontentdiv{
+        margin-left: 5vw !important;
+    }
+
+    .aaheading{
+        font-size: 26px !important;
+    }
+
+}
+
+@media only screen and (max-width: 530px){
+    /*contact page*/
+    .addressdiv{
+        margin-left: 13vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 15vw !important;
+    }
+
+     /*event page*/
+     .eventscontent{
+        width: 350px !important;
+    }
+
+    .eventcol{
+        margin-left: 0vw !important;
+    }
+
+    .eheadings{
+        font-size: 12px !important;
+    }
+
+    .nheadings{
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    /*error page*/
+    .errorbutton{
+       padding: 15px 50px;
+       font-size: 12px;
+   }
+
+   #errorheading{
+       font-size: 60px !important;
+   }
+
+   #errormessage{
+       font-size: 18px !important;
+   }
+
+   .button-4>.fa {
+       line-height: 3;
+   }
+}
+
+@media only screen and (max-width: 470px){
+    .principalimgdiv{
+        margin-right: 45vw !important;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    /*branch page*/
+    .branchesname{
+        font-size: 15px !important;
+    }
+
+    /*home page*/
+
+    .homeimages{
+        height: 50vw !important;
+    }
+
+    .homeimgsarrow{
+       margin-top: 23vw !important;
+    }
+
+    .navarr{
+        font-size: 20px !important;
+    }
+
+    #mainNav{
+        padding: 0px !important;
+    }
+
+    .welcomediv{
+        margin-top: 0px !important;
+        margin-left: -20vw !important;
+    }
+
+    .welcomeimg{
+        width: 300px !important;
+    }
+
+    .welcomeheading{
+        font-size: 30px !important;
+    }
+
+    .principalimg{
+        width: 300px !important;
+    }
+
+    .principalimgdiv{
+        margin-right: 30vw !important;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width:300px !important;
+    }
+
+    .ourschoolheadimg{
+        height: 40vw !important;
+    }
+
+    .missionimg{
+        width: 60vw !important;
+    }
+
+    #ourschoollmfont{
+        font-size: 25px !important;
+        padding: 5px 20px !important;
+    }
+
+    /*academic app page*/
+    .robodiv{
+        margin-left: 3vw !important;
+    }
+
+    .robocontentdiv{
+        margin-left: 3vw !important;
+    }
+
+    .roboimg{
+        width: 270px !important;
+    }
+
+    .robocontentpara{
+        width: 300px !important;
+    }
+
+    .aaheading{
+        font-size: 24px !important;
+    }
+
+    /*contact page*/
+    .addressdiv{
+        margin-left: 4vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 4vw !important;
+    }
+
+     /*event page*/
+     .eventcol{
+        margin-left: 10vw !important;
+    }
+
+    /*infrastructure page*/
+    .infacontent{
+        width: 250px !important;
+    }
+
+    .infaimg{
+        width: 220px !important;
+        height: 150px !important;
+    }
+
+    .ipara{
+        width: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .scrolldiv1links{
+        font-size: 12px !important;
+        padding: 8px 1px !important;
+    }
+
+    #imgdivthumbnailbutton{
+        margin-top: 340px !important;
+        margin-right: 20px !important;
+    }
+
+    .footercontent{
+        font-size: 20px !important;
+        width: 100px !important;
+    }
+
+    .explore{
+        width: 65px !important;
+    }
+
+    .linksdiv{
+        margin-right: 0px !important;
+    }
+
+    .footercontentlink{
+        font-size: 12px !important;
+    }
+
+    .right-footer{
+        width: 310px !important;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    /*error page*/
+
+    .button-4>.fa {
+        line-height: 3.5;
+    }
+
+    .errorbutton{
+        padding: 15px 45px;
+        font-size: 9px !important;
+    }
+
+    #errorheading{
+        font-size: 50px !important;
+    }
+
+    #errormessage{
+        font-size: 15px !important;
+    }
+
+}
+
+@media only screen and (max-width: 398px){
+    /*contact page*/
+    .addressdiv{
+        margin-left: 5vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 5vw !important;
+    }
+
+    .ccontenthead{
+        font-size: 19px !important;
+    }
+
+    .ccontent{
+        font-size: 16px !important;
+    }
+
+    .ccontent{
+        width: 235px !important;
+    }
+
+    .gmaplocation{
+        width: 250px !important;
+        height: 200px !important;
+    }
+
+    #contactus{
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .welcomediv{
+        margin-top: 0px !important;
+        margin-left: -15vw !important;
+    }
+
+    .welcomeimg{
+        width: 250px !important;
+    }
+
+    .welcomeheading{
+        font-size: 25px !important;
+        width: 250px !important;
+    }
+
+    .principalimgdiv{
+        margin-right: 45vw !important;
+    }
+}
+
+@media only screen and (max-width: 380px){
+     /*event page*/
+     .eventscontent{
+        width: 250px !important;
+    }
+
+    .eventimg{
+        width: 200px !important;
+        height: 250px !important;
+    }
+
+    .esubcardbodytext{
+        width: 200px !important;
+    }
+
+    .eventcol{
+        margin-left: 0vw !important;
+    }
+
+    .eheadings{
+        font-size: 12px !important;
+    }
+
+    .nheadings{
+        font-size: 15px !important;
+    }
+
+    .newsimg{
+        width: 220px !important;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    /*branch page*/
+    .branchesname{
+        font-size: 13px !important;
+    }
+
+    /*home page*/
+    .welcomediv{
+        margin-top: 0px !important;
+        margin-left: -25vw !important;
+    }
+
+     /*error page*/
+
+     .button-4>.fa {
+        line-height: 4.5;
+    }
+
+    .errorbutton{
+        padding: 15px 33px;
+        font-size: 8px !important;
+    }
+
+}
+
+@media only screen and (max-width: 355px){
+     /*home page*/
+
+     .schoolheadname{
+        font-size: 13px !important;
+    }
+
+    .schoolheadaddress{
+        font-size: 9px !important;
+        width: 160px !important;
+    }
+
+    .schoolhead{
+        margin-right: 10px !important;
+        margin-top: 18px !important;
+    }
+
+    .logo{
+        margin-left: 10px !important;
+        margin-top: 45px !important;
+    }
+
+    .welcomediv{
+        margin-top: -30px !important;
+        margin-left: -25vw !important;
+    }
+
+    .welcomeimg{
+        width: 250px !important;
+    }
+
+    .welcomeheading{
+        font-size: 20px !important;
+        width: 250px !important;
+    }
+
+    .copyrightfooter{
+        padding-left: 20vw !important;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    /*branch page*/
+    .branchesname{
+        font-size: 12px !important;
+    }
+
+    .branchpara{
+        font-size: 17px !important;
+    }
+
+     /*home page*/
+
+     .homeimages{
+        height: 57vw !important;
+    }
+
+    .homeimgsarrow{
+       margin-top: 20vw !important;
+    }
+
+    .navarr{
+        font-size: 20px !important;
+    }
+
+    .navbar-toggler{
+        font-size: 10px !important;
+    }
+
+    #mainNav{
+        padding: 0px !important;
+    }
+
+    .principalimg{
+        width: 250px !important;
+    }
+
+    .principalcontent{
+        margin-left: 0vw !important;
+    }
+
+    .scrolldiv1links{
+        font-size: 11px !important;
+    }
+
+    .right-footer{
+        width: 200px !important;
+    }
+
+    .footer{
+        height: 880px !important;
+    }
+
+    .footerborderdiv{
+        height: 830px !important;
+    }
+
+    .footerexplore{
+        padding-left: 0px !important;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width:220px !important;
+    }
+
+    .missionheading{
+        font-size: 30px !important;
+    }
+
+    .ourschoolheadimg{
+        height: 45vw !important;
+    }
+
+    .missionimg{
+        width: 65vw !important;
+    }
+
+    #ourschoollmfont{
+        font-size: 20px !important;
+        padding: 5px 10px !important;
+    }
+
+    /*academic app page*/
+    .robocontentpara{
+        width: 220px !important;
+    }
+
+    .roboimg{
+        width: 220px !important;
+    }
+
+    .aaheading{
+        font-size: 21px !important;
+    }
+
+    /*student activity page*/
+    .saborderdiv{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 326px){
+    .copyrightfooter{
+        font-size: 12px !important;
+        width: 250px !important;
+    }
+
+    .footer{
+        height: 950px !important;
+    }
+
+    .footerborderdiv{
+        height: 880px !important;
+    }
+}
+
+@media only screen and (max-width: 310px){
+    /*branch page*/
+
+    .branchesname{
+        font-size: 11px !important;
+    }
+
+    /*home page*/
+    .welcomediv{
+        margin-top: -30px !important;
+        margin-left: -30vw !important;
+    }
+
+    .scrolldiv1links{
+        font-size: 9px !important;
+        padding: 8px 0px !important;
+    }
+
+    /*error page*/
+    .errorbutton{
+        padding: 10px 25px;
+        font-size: 7px !important;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    /*branch page*/
+    .branchesname{
+        font-size: 10px !important;
+    }
+
+    /*home page*/
+    .welcomediv{
+        margin-top: -30px !important;
+        margin-left: -35vw !important;
+    }
+
+    .principalimg{
+        width: 220px !important;
+    }
+
+    /*event page*/
+    .eventcol{
+        margin-left: 2vw !important;
+    }
+
+    .eventscontent{
+        width: 220px !important;
+    }
+
+    .nheadings{
+        font-size: 12px !important;
+    }
+
+    .eheadings{
+        font-size: 10px !important;
+    }
+}
