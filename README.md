@@ -5,4 +5,4 @@ Website and web application user interfaces for an educational institution using
 
 ## Demo
 
-View the website here - https://educational-institute-websit.herokuapp.com/
+View the website here - https://sonali-tandon.github.io/Educational-Institute-website-3/
